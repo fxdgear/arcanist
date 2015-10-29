@@ -5,7 +5,7 @@ Dockerized version of arcanist
 ## How to use
 ### local setup
 
-1. Create alias: `alias arc="docker run --rm -it -v `pwd`:/data/ -v $HOME/.arc:/arcanist -v $HOME/.git:/git -e 'EDITOR=vim' fxdgear/arcanist"
+1. Create alias: ```alias arc="docker run --rm -it -v `pwd`:/data/ -v $HOME/.arc:/arcanist -v $HOME/.git:/git -e 'EDITOR=vim' fxdgear/arcanist"``
 2. create .arc directory: `mkdir $HOME/.arc`
 3. create arcrc file: `echo {} > $HOME/.arc/arcrc`
 
